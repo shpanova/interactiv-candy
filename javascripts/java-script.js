@@ -143,6 +143,34 @@ $(document).ready(function() {
       });
     });
 
+    $(".move-area").mousemove(function(event) {
+      let eye10 = $(".eye10");
+      let x = (eye10.offset().left) + (eye10.width() / 2);
+      let y = (eye10.offset().top) + (eye10.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye10.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye11 = $(".eye11");
+      let x = (eye11.offset().left) + (eye11.width() / 2);
+      let y = (eye11.offset().top) + (eye11.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye11.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
 
     /* _________________ квадраты с обводкой ___________________ */
 
@@ -216,7 +244,7 @@ $(document).ready(function() {
       });
     });
 
-    
+
     /* _________________ линии ___________________ */
 
     $(".move-area").mousemove(function(event) {
