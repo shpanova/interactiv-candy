@@ -1,5 +1,27 @@
-$(document).ready(function() {
-  console.log( 'готов!' );
+$(document).ready(function(){
+    $(".fibut").click(function(){
+        $(".second").addClass("onosamoe");
+        $(".first").addClass("netosamoe");
+    });
+
+    $(".ff").click(function(){
+        $( ".sebut1" ).remove();
+    });
+
+    $(".sebut").click(function(){
+        $(".second").addClass("netosamoe");
+        $(".third").addClass("onosamoe");
+    });
+
+    $( "input" )
+    .keyup(function() {
+      var value = $( this ).val();
+      $( "p" ).text( value );
+    })
+    .keyup();
+
+
+
 
     /* _________________ цветные квадраты ___________________ */
 
@@ -171,6 +193,75 @@ $(document).ready(function() {
       });
     });
 
+    $(".move-area").mousemove(function(event) {
+      let eye12 = $(".eye12");
+      let x = (eye12.offset().left) + (eye12.width() / 2);
+      let y = (eye12.offset().top) + (eye12.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye12.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye13 = $(".eye13");
+      let x = (eye13.offset().left) + (eye13.width() / 2);
+      let y = (eye13.offset().top) + (eye13.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye13.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye14 = $(".eye14");
+      let x = (eye14.offset().left) + (eye14.width() / 2);
+      let y = (eye14.offset().top) + (eye14.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye14.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye15 = $(".eye15");
+      let x = (eye15.offset().left) + (eye15.width() / 2);
+      let y = (eye15.offset().top) + (eye15.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye15.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye16 = $(".eye16");
+      let x = (eye16.offset().left) + (eye16.width() / 2);
+      let y = (eye16.offset().top) + (eye16.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye16.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
 
     /* _________________ квадраты с обводкой ___________________ */
 
@@ -244,6 +335,34 @@ $(document).ready(function() {
       });
     });
 
+    $(".move-area").mousemove(function(event) {
+      let box5 = $(".box5");
+      let x = (box5.offset().left) + (box5.width() / 2);
+      let y = (box5.offset().top) + (box5.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+        box5.css({
+          '-webkit-transform': 'rotate(' + rot + 'deg)',
+          '-moz-transform': 'rotate(' + rot + 'deg)',
+          '-ms-transform': 'rotate(' + rot + 'deg)',
+          'transform': 'rotate(' + rot + 'deg)'
+        });
+      });
+
+    $(".move-area").mousemove(function(event) {
+        let box6 = $(".box6");
+        let x = (box6.offset().left) + (box6.width() / 2);
+        let y = (box6.offset().top) + (box6.height() / 2);
+        let rad = Math.atan2(event.pageX - x, event.pageY - y);
+        let rot = (rad * (180 / Math.PI) * -1) + 180;
+          box6.css({
+            '-webkit-transform': 'rotate(' + rot + 'deg)',
+            '-moz-transform': 'rotate(' + rot + 'deg)',
+            '-ms-transform': 'rotate(' + rot + 'deg)',
+            'transform': 'rotate(' + rot + 'deg)'
+          });
+        });
+
 
     /* _________________ линии ___________________ */
 
@@ -289,6 +408,34 @@ $(document).ready(function() {
       });
     });
 
+    $(".move-area").mousemove(function(event) {
+      let line4 = $(".line4");
+      let x = (line4.offset().left) + (line4.width() / 2);
+      let y = (line4.offset().top) + (line4.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      line4.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let line5 = $(".line5");
+      let x = (line5.offset().left) + (line5.width() / 2);
+      let y = (line5.offset().top) + (line5.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      line5.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
 
     /* _________________ перетаскивание элементов ___________________ */
 
@@ -313,7 +460,16 @@ $(document).ready(function() {
      $( "#draggable17" ).draggable();
      $( "#draggable18" ).draggable();
      $( "#draggable19" ).draggable();
-   } );
+     $( "#draggable20" ).draggable();
+     $( "#draggable21" ).draggable();
+     $( "#draggable22" ).draggable();
+     $( "#draggable23" ).draggable();
+     $( "#draggable24" ).draggable();
+     $( "#draggable25" ).draggable();
+     $( "#draggable26" ).draggable();
+     $( "#draggable27" ).draggable();
+     $( "#draggable28" ).draggable();
+   });
 
 
 
