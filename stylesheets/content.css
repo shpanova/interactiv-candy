@@ -17,50 +17,6 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 
 }
 
-
-h1, h2, h3, h4, div{
-  font-family: 'Russo One', sans-serif;
-  font-size: 24px;
-}
-
-p{
-  font-family: 'Jura', sans-serif;
-  font-size: 80px;
-  line-height: 80px;
-  color: white;f
-}
-
-h1{
-  font-size: 80px;
-  line-height: 80px;
-  color: white;
-}
-
-h3{
-  font-size: 20px;
-  line-height: 80px;
-  color: white;
-}
-
-.one1{
-  text-align: center;
-}
-
-.two1{
-  position: absolute;
-  top: 80px;
-  left: 80px;
-}
-
-a{
-  font-family: 'Russo One', sans-serif;
-  font-size: 30px;
-  line-height: 34px;
-  color: white;
-
-}
-
-
 body, html, section{
   overflow: hidden;
   background-color: #0F0F0F;
@@ -70,7 +26,544 @@ body, html, section{
   position: relative;
 }
 
+
+h1, h2, h3, div{
+  font-family: 'Russo One', sans-serif;
+  font-size: 24px;
+}
+
+
+p{
+  font-family: 'Jura', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+
+h1{
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+}
+
+h2{
+  font-size: 80px;
+  line-height: 1;
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+h3{
+  font-family: 'Jura', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+  position: absolute;
+  bottom: 80px;
+}
+
+.zyfraone{
+  left: 80px;
+}
+
+.zyfratwo{
+  left: 110px;
+  color: #2F2F2F;
+}
+
+.zyfratwo1{
+  left: 128px;
+  color: #2F2F2F;
+}
+
+h5{
+  font-family: 'Jura', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 8px;
+  color: white;
+  padding-bottom: 12px;
+}
+
+/* _________________ 5 секция ___________________ */
+
+.text{
+  font-family: 'Jura', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.text2{
+  font-family: 'Jura', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.v1{
+  color: #888888;
+  padding-left: 20px;
+}
+
+.v2{
+  color: #888888;
+  padding-left: 20px;
+}
+
+.rr1{
+  position: absolute;
+  top: 460px;
+  left: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  height: 140px;
+  border-radius: 10px;
+  border: 1px solid #252525;
+
+}
+
+.rr2{
+  position: absolute;
+  top: 220px;
+  left: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  height: 140px;
+  border-radius: 10px;
+  border: 1px solid #252525;
+
+}
+
+.rr2a{
+  height: 180px;
+}
+
+/* _________________ 4 секция ___________________ */
+
+.ppp{
+  position: absolute;
+  top: 380px;
+  left: 80px;
+}
+
+.vkus{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 200px;
+  left: 80px;
+}
+
+.vkusno{
+  display: flex;
+  flex-direction: row;
+}
+
+.vkusno1{
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.vkus1{
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid;
+  border-color: white;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.vkus2{
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid;
+  border-color: white;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.vkus3{
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid;
+  border-color: white;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.vkus4{
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid;
+  border-color: white;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.vkus5{
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid;
+  border-color: white;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.vkus6{
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid;
+  border-color: white;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.vkus1:hover{
+  font-weight: bold;
+}
+
+.vkus2:hover{
+  font-weight: bold;
+}
+
+.vkus3:hover{
+  font-weight: bold;
+}
+
+.vkus4:hover{
+  font-weight: bold;
+}
+
+.vkus5:hover{
+  font-weight: bold;
+}
+
+.vkus6:hover{
+  font-weight: bold;
+}
+
+.vka{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.vkp{
+  color: black;
+  font-weight: bold;
+}
+
+/* _________________ 3 секция ___________________ */
+
+h4{
+  font-family: 'Jura', sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  color: #888888;
+  cursor: pointer;
+  position: absolute;
+  top: 420px;
+  left: 80px;
+}
+
+h4:hover{
+  color: white;
+}
+
+h4:active{
+  color: #4C41E3;
+}
+
+
+.one1{
+  text-align: center;
+}
+
+a{
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  line-height: 34px;
+  color: white;
+}
+
+
+
+
+/* __кнопки ______________________________________________ */
+
+/* _________________ 1 секция ___________________ */
+
 .fibut{
+  width: 540px;
+  height: 80px;
+  border-radius: 200px;
+  background: linear-gradient(70deg, #5873FF, #4A3DE1);
+  margin-top: -90px;
+  border: none;
+  box-shadow:0 0 16px #4A3DE1;
+}
+
+.fibut:hover{
+    background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+    box-shadow:0 0 24px #4A3DE1;
+}
+
+.obvodka1{
+    width: 560px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 200px;
+    border-color:  #5873FF;
+}
+
+.obvodka1:hover{
+    box-shadow:0 0 6px #4A3DE1;
+}
+
+.onebtn{
+  display: flex;
+  isplay: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+
+
+/* _________________________________________ 2 секция _________________________ */
+
+/* _________________ кнопки ___________________ */
+
+.stl, .stl1{
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  width: 120px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+  background-color: grey;
+}
+
+.stl{
+  background: linear-gradient(20deg, #5873FF, #4A3DE1);
+}
+
+.stl:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+
+.sebut, .sebut1{
+  position: absolute;
+  bottom: 80px;
+  right: 200px;
+  width: 300px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+  background-color: grey;
+}
+
+.sebut{
+  background: linear-gradient(70deg, #5873FF, #4A3DE1);
+}
+
+.sebut:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+
+/* _________________________________________ 3 секция _________________________ */
+
+/* _________________ кнопки ___________________ */
+
+.trl, .trl1{
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  width: 120px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+  background-color: grey;
+}
+
+.trl{
+  background: linear-gradient(20deg, #5873FF, #4A3DE1);
+}
+
+.trl:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+.btnactive{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+
+.tri, .tri1{
+  position: absolute;
+  bottom: 80px;
+  right: 200px;
+  width: 300px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+  background-color: grey;
+}
+
+.tri{
+  background: linear-gradient(70deg, #5873FF, #4A3DE1);
+}
+
+.tri:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+
+
+/* _________________________________________ 4 секция _________________________ */
+
+/* _________________ кнопки ___________________ */
+
+.frl, .frl1{
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  width: 120px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+  background-color: grey;
+}
+
+.frl{
+  background: linear-gradient(20deg, #5873FF, #4A3DE1);
+}
+
+.frl:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+
+.forb, .forb1{
+  position: absolute;
+  bottom: 80px;
+  right: 200px;
+  width: 300px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+  background-color: grey;
+}
+
+.forb{
+  background: linear-gradient(70deg, #5873FF, #4A3DE1);
+}
+
+.forb:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+
+/* _________________________________________ 5 секция _________________________ */
+
+/* _________________ кнопки ___________________ */
+
+.fiverl{
+  position: absolute;
+  bottom: 90px;
+  right: 90px;
+  width: 120px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+  background: linear-gradient(20deg, #5873FF, #4A3DE1);
+}
+
+.fiverl{
+  background: linear-gradient(20deg, #5873FF, #4A3DE1);
+}
+
+.fiverl:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+.btnactive{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+
+.fiveb{
+  position: absolute;
+  bottom: 90px;
+  right: 210px;
+  width: 300px;
+  height: 88px;
+  border: none;
+  border-radius: 200px;
+}
+
+.fiveb{
+  background: linear-gradient(70deg, #5873FF, #4A3DE1);
+}
+
+.fiveb:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
+}
+
+.obvodka5{
+  width: 440px;
+  height: 108px;
+  border: 1px solid;
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  border-radius: 200px;
+  border-color:  #5873FF;
+}
+
+.obvodka5:hover{
+  box-shadow:0 0 6px #4A3DE1;
+}
+
+.obact{
+  box-shadow:0 0 6px #4A3DE1;
+}
+
+/* _________________________________________ 5 секция _________________________ */
+
+/* _________________ кнопки ___________________ */
+
+.sixbtn{
   width: 540px;
   height: 80px;
   border-radius: 200px;
@@ -80,35 +573,19 @@ body, html, section{
   box-shadow:0 0 16px #4A3DE1;
 }
 
-.sebut{
-  position: absolute;
-  bottom: 80px;
-  right: 80px;
-  width: 300px;
-  height: 88px;
-  border: none;
-  border-radius: 200px;
-  background: linear-gradient(70deg, #5873FF, #4A3DE1);
-
+.sixbtn:hover{
+  background: linear-gradient(-70deg, #5873FF, #4A3DE1);
+  box-shadow:0 0 24px #4A3DE1;
 }
 
-.sebut1{
-  position: absolute;
-  bottom: 80px;
-  right: 80px;
-  width: 300px;
-  height: 88px;
-  border-radius: 200px;
-  border: none;
-  background-color: grey;
 
-}
+/* _________________ поле ввода и рамка  2 секция___________________ */
 
 .inp1{
   position: absolute;
-  top: 300px;
-  left: 80px;
-  width: 300px;
+  top: 330px;
+  left: 100px;
+  width: 700px;
   height: 40px;
   color: white;
   background-color: #121212;
@@ -116,51 +593,217 @@ body, html, section{
   text-decoration: none;
   font-size: 28px;
   font-family: 'Jura', sans-serif;
+  cursor: pointer;
 }
 
 input {outline: 0 !important;}
 
-.bx2{
+.ramka{
+  position: absolute;
+  left: 80px;
+  top: 310px;
   width: 920px;
-  height: 300px;
+  height: 80px;
   background-color: #121212;
   border-radius: 10px;
   border: 1px solid #252525;
 }
 
-.notwork{
-  background-color: red;
+/* _________________ поле ввода и рамка  3 секция___________________ */
+
+.r{
+  position: relative;
+  padding-left: 80px;
+  padding-right: 80px;
+  top: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  grid-row-gap: 40px;
 }
 
-.work{
-  background-color: blue;
+
+/* ________________________________________________________________ */
+
+.im{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 468px;
+  height: 229px;
+  margin: -114px 0 0 -234px;
 }
+
+.f{
+  width: 100px;
+  height: 100px;
+}
+
+
+.ramka1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  width: 50%;
+  height: 14vw;
+  background-color: #121212;
+  border-radius: 10px;
+  border: 1px solid #252525;
+  margin-right: 40px;
+}
+
+.ramka2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  width: 50%;
+  height: 14vw;
+  background-color: #121212;
+  border-radius: 10px;
+  border: 1px solid #252525;
+}
+
+
+
+.kry{
+  width: 7vw;
+  height: 7vw;
+  background-color: #F69944;
+  border-radius: 100%;
+}
+
+.krr{
+  width: 7vw;
+  height: 7vw;
+  background-color: #F64444;
+  border-radius: 100%;
+}
+
+.krf{
+  width: 7vw;
+  height: 7vw;
+  background-color: #5B1DDF;
+  border-radius: 100%;
+}
+
+.kry:hover{
+  box-shadow:0 0 20px #F69944;
+
+}
+
+.krr:hover{
+  box-shadow:0 0 20px #F64141;
+}
+
+.krf:hover{
+  box-shadow:0 0 20px #5B1DDF;
+}
+
+.kry:active{
+  box-shadow:0 0 20px #F69944;
+}
+
+.krya{
+  box-shadow:0 0 20px #F69944;
+  opacity: 100%;
+}
+
+.krr:active{
+  box-shadow:0 0 20px #F64141;
+}
+
+.krra{
+  box-shadow:0 0 20px #F64141;
+  opacity: 100%;
+}
+
+.krf:active{
+  box-shadow:0 0 20px #5B1DDF;
+}
+
+.krfa{
+  box-shadow:0 0 24px #5B1DDF;
+  opacity: 100%;
+}
+
+.i1{
+  width: 12vw;
+  opacity: 60%;
+}
+
+.i2{
+  width: 8vw;
+  opacity: 60%;
+}
+
+.i3{
+  width: 10vw;
+  opacity: 60%;
+}
+
+.i1:hover{
+transform: scale(1.1);
+}
+
+
+
+.ia1{
+  opacity: 100%;
+  transform: scale(1.1);
+
+}
+
+.i2:hover{
+  transform: scale(1.1);
+}
+
+
+
+.i3:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+.notwork{
+  opacity: 20%;
+  box-shadow: none;
+}
+
+
 
 .first{
-    display: block;
+  display: block;
 }
 
 .second{
-    display: none;
+  display: none;
 }
 
 .third{
-
-    display: none;
-
+  display: none;
 }
 
-.onosamoe{
-    display: block;
+.fourth{
+  display: none;
 }
 
-.netosamoe{
-    display: none;
+.fiveth{
+  display: none
 }
 
-
-
-
+.sixth{
+  display: none
+}
 
 .o1{
   display: flex;
@@ -173,17 +816,30 @@ input {outline: 0 !important;}
   width: 1056px;
   height: 292px;
   margin: -150px 0 0 -528px;
-
 }
 
 
 
+.onosamoe{
+    display: block;
+}
+
+.netosamoe{
+    display: none;
+}
+
+.op{
+  opacity: 100%;
+}
 
 
-.box, .box1, .box2, .box3, .box4, .box5, .box6{
-  position: relative;
+.box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+  position: absolute;
   height: 64px;
   width: 64px;
+  background-color: #0F0F0F;
+  border: 1px solid;
+  border-color: #4A4A4A;
 }
 
 .move-area{
@@ -196,17 +852,20 @@ input {outline: 0 !important;}
   width: 100%;
 }
 .eye, .eye1, .eye2, .eye3, .eye4, .eye5, .eye6, .eye7, .eye8,
-.eye9, .eye10, .eye11, .eye12, .eye13, .eye14, .eye15, .eye16{
-  position: relative;
-  height: 10px;
-  width: 10px;
+.eye9, .eye10, .eye11, .eye12, .eye13, .eye14, .eye15, .eye16,
+.eye17, .eye18, .eye19, .eye20, .eye21{
+  position: absolute;
+  height: 12px;
+  width: 12px;
   background: #4C41E3;
 }
 
 .line1, .line2, .line3, .line4, .line5{
-  position: relative;
-  width: 40px;
+  position: absolute;
+  width: 80px;
   height: 1px;
+  background-color: #4A4A4A;
+  transform: rotate(45deg)
 
 }
 
@@ -451,6 +1110,36 @@ input {outline: 0 !important;}
   }
 }
 
+.eye15{
+  animation-name: star15;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4s;
+}
+
+
+@keyframes star15 {
+  50% {
+    opacity: 10%;
+  }
+}
+
+.eye16{
+  animation-name: star14;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1.4s;
+}
+
+
+@keyframes star16 {
+  50% {
+    opacity: 10%;
+  }
+}
+
 /* _________________ анимация квадратов с обводкой ___________________ */
 
 .box{
@@ -601,198 +1290,140 @@ input {outline: 0 !important;}
 /* _________________ квадраты цветные ___________________ */
 
 #draggable {
-  margin-left: 4%;
-  margin-top: 4%;
-  width:12px;
-  height: 12px;
+  margin-left: 4vw;
+  margin-top: 6vh;
 }
 
 #draggable2 {
-  margin-left: 38%;
-  margin-top: 3%;
-  width:12px;
-  height: 12px;
+  margin-left: 24vw;
+  margin-top: 8vh;
 }
 
 #draggable3 {
-  margin-left: 24%;
-  margin-top: 4%;
-  width:12px;
-  height: 12px;
+  margin-left: 12vw;
+  margin-top: 24vh;
 }
 
 #draggable4 {
-  margin-left: 58%;
-  margin-top: -12%;
-  width:12px;
-  height: 12px;
+  margin-left: 36vw;
+  margin-top: 16vh;
 }
 
 #draggable7 {
-  margin-left: 68%;
-  margin-top: -12%;
-  width:12px;
-  height: 12px;
+  margin-left: 45vw;
+  margin-top: 3vh;
 }
 
 #draggable8 {
-  margin-left: 80%;
-  margin-top: -6%;
-  width:12px;
-  height: 12px;
+  margin-left: 54vw;
+  margin-top: 16vh;
 }
 
 
 #draggable10 {
-  margin-left: 75%;
-  margin-top: 12%;
-  width:12px;
-  height: 12px;
+  margin-left: 68vw;
+  margin-top: 22vh;
 }
 
 
 #draggable11 {
-  margin-left: 96%;
-  margin-top: -6%;
-  width:12px;
-  height: 12px;
+  margin-left: 74vw;
+  margin-top: 6vh;
 }
 
 #draggable14 {
-  margin-left: 2%;
-  margin-top: 24%;
-  width:12px;
-  height: 12px;
+  margin-left: 90vw;
+  margin-top: 24vh;
 }
 
 
 #draggable15 {
-  margin-left: 15%;
-  margin-top: 8%;
-  width:12px;
-  height: 12px;
+  margin-left: 96vw;
+  margin-top: 6vh;
 }
 
 #draggable18 {
-  margin-left: 8%;
-  margin-top: 3%;
-  width:12px;
-  height: 12px;
+  margin-left: 4vw;
+  margin-top: 60vh;
 }
 
 
 #draggable19 {
-  margin-left: 34%;
-  margin-top: -8%;
-  width:12px;
-  height: 12px;
+  margin-left: 12vw;
+  margin-top: 80vh;
 }
 
 #draggable20{
-  margin-left: 43%;
-  margin-top: 5%;
-  width:12px;
-  height: 12px;
+  margin-left: 24vw;
+  margin-top: 92vh;
 }
 
 #draggable23{
-  margin-left: 59%;
-  margin-top: 6%;
-  width:12px;
-  height: 12px;
+  margin-left: 38vw;
+  margin-top: 84vh;
 }
 
 #draggable24{
-  margin-left: 76%;
-  margin-top: -10%;
-  width:12px;
-  height: 12px;
+  margin-left: 50vw;
+  margin-top: 94vh;
 }
 
 #draggable26{
-  margin-left: 96%;
-  margin-top: 4%;
-  width:12px;
-  height: 12px;
+  margin-left: 64vw;
+  margin-top: 84vh;
 }
 
 #draggable27{
-  margin-left: 92%;
-  margin-top: -16%;
-  width:12px;
-  height: 12px;
+  margin-left: 78vw;
+  margin-top: 90vh;
+}
+
+#draggable29{
+  margin-left: 86vw;
+  margin-top: 70vh;
+}
+
+#draggable30{
+  margin-left: 96vw;
+  margin-top: 80vh;
 }
 
 
 /* _________________ квадраты с обводкой ___________________ */
 
 #draggable1 {
-  margin-left: 15%;
-  margin-top: -4%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: 12vw;
+  margin-top: -2vh;
 }
+
 #draggable5 {
-  margin-left: 50%;
-  margin-top: 6%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: -1vw;
+  margin-top: 34vh;
 }
 
 #draggable6 {
-  margin-left: 7%;
-  margin-top: 3%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: 68vw;
+  margin-top: 96vh;
 }
 
 #draggable13 {
-  margin-left: 88%;
-  margin-top: -10%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: 4vw;
+  margin-top: 86vh;
 }
 
 #draggable17 {
-  margin-left: 20%;
-  margin-top: 2%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: 84vw;
+  margin-top: 4vh;
 }
 
 #draggable22 {
-  margin-left: 64%;
-  margin-top: -4%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: 96vw;
+  margin-top: 52vh;
 }
 
 #draggable28 {
-  margin-left: 96%;
-  margin-top: -16%;
-  width: 64px;
-  height: 64px;
-  background-color: #0F0F0F;
-  border: 1px solid;
-  border-color: #4A4A4A;
+  margin-left: 52vw;
+  margin-top: 76vh;
 }
 
 
@@ -800,47 +1431,57 @@ input {outline: 0 !important;}
 
 /* _________________ линии___________________ */
 
-#draggable9 {
-  margin-left: 28%;
-  margin-top: 0%;
-  width: 80px;
-  height: 1px;
-  background-color: #4A4A4A;
-  transform: rotate(-45deg)
+ #draggable9 {
+   margin-left: 22vw;
+   margin-top: 22vh;
 }
 
 #draggable12 {
-  margin-left: 82%;
-  margin-top: 0%;
-  width: 80px;
-  height: 1px;
-  background-color: #4A4A4A;
-  transform: rotate(45deg)
+  margin-left: 26vw;
+  margin-top: 80vh;
 }
 
 #draggable16 {
-  margin-left: 5%;
-  margin-top: 6%;
-  width: 80px;
-  height: 1px;
-  background-color: #4A4A4A;
-  transform: rotate(45deg)
+  margin-left: 64vw;
+  margin-top: 8vh;
 }
 
 #draggable21 {
-  margin-left: 49%;
-  margin-top: -5%;
-  width: 80px;
-  height: 1px;
-  background-color: #4A4A4A;
-  transform: rotate(45deg)
+  margin-left: 92vw;
+  margin-top: 36vh;
 }
 
 #draggable25 {
-  margin-left: 84%;
-  margin-top: 3%;
-  width: 80px;
-  height: 1px;
-  background-color: #4A4A4A;
-  transform: rotate(45deg)
+  margin-left: 88vw;
+  margin-top: 88vh;
+}
+
+
+/* _________________ цветные квадраты для средних экранов ___________________ */
+
+#draggable31{
+  margin-left: 2%;
+  margin-top: 18%;
+  width:12px;
+  height: 12px;
+}
+
+#draggable32{
+  margin-left: 54%;
+  margin-top: -5%;
+  width:12px;
+  height: 12px;
+}
+
+
+/* _________________ квадраты с обводкой для средних экранов ___________________ */
+
+#draggable33 {
+  margin-left: 86%;
+  margin-top: -7%;
+  width: 64px;
+  height: 64px;
+  background-color: #0F0F0F;
+  border: 1px solid;
+  border-color: #4A4A4A;
 }
