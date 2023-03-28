@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $(".fibut").click(function(){
         $(".second").addClass("onosamoe");
         $(".first").addClass("netosamoe");
@@ -6,12 +7,61 @@ $(document).ready(function(){
 
     $(".ff").click(function(){
         $( ".sebut1" ).remove();
+        $( ".stl1" ).remove();
     });
 
     $(".sebut").click(function(){
         $(".second").addClass("netosamoe");
         $(".third").addClass("onosamoe");
     });
+
+    $(".stl").click(function(){
+        $(".second").addClass("netosamoe");
+        $(".third").addClass("onosamoe");
+    });
+
+    $(".tri").click(function(){
+        $(".third").addClass("netosamoe");
+        $(".fourth").addClass("onosamoe");
+    });
+
+    $(".trl").click(function(){
+        $(".third").addClass("netosamoe");
+        $(".fourth").addClass("onosamoe");
+    });
+
+    $(".forb").click(function(){
+        $(".fourth").addClass("netosamoe");
+        $(".fiveth").addClass("onosamoe");
+    });
+
+    $(".frl").click(function(){
+        $(".fourth").addClass("netosamoe");
+        $(".fiveth").addClass("onosamoe");
+    });
+
+    /* _________________ кнопки 5 cекция ___________________ */
+
+    $(".fiveb").click(function(){
+        $(".fiveth").addClass("netosamoe");
+        $(".sixth").addClass("onosamoe");
+    });
+
+    $(".fiverl").click(function(){
+        $(".fiveth").addClass("netosamoe");
+        $(".sixth").addClass("onosamoe");
+    });
+
+    $(".obvodka5").click(function(){
+        $(".fiveth").addClass("netosamoe");
+        $(".sixth").addClass("onosamoe");
+    });
+
+      $(".sixbtn").click(function(){
+          location.reload(true);
+      });
+
+    /* _________________ кнопки 5 секция ___________________ */
 
     $( "input" )
     .keyup(function() {
@@ -20,7 +70,401 @@ $(document).ready(function(){
     })
     .keyup();
 
+/* _________________ кнопки___________________ */
 
+    $(".frl").mouseover(function(){
+      $(".forb").addClass("btnactive");
+    });
+
+    $(".frl").mouseout(function(){
+      $(".forb").removeClass("btnactive");
+    });
+
+    $(".forb").mouseover(function(){
+      $(".frl").addClass("btnactive");
+    });
+
+    $(".forb").mouseout(function(){
+      $(".frl").removeClass("btnactive");
+    });
+
+    $(".stl").mouseover(function(){
+      $(".sebut").addClass("btnactive");
+    });
+
+    $(".stl").mouseout(function(){
+      $(".sebut").removeClass("btnactive");
+    });
+
+    $(".sebut").mouseover(function(){
+      $(".stl").addClass("btnactive");
+    });
+
+    $(".sebut").mouseout(function(){
+      $(".stl").removeClass("btnactive");
+    });
+
+    $(".trl").mouseover(function(){
+      $(".tri").addClass("btnactive");
+    });
+
+    $(".trl").mouseout(function(){
+      $(".tri").removeClass("btnactive");
+    });
+
+    $(".tri").mouseover(function(){
+      $(".trl").addClass("btnactive");
+    });
+
+    $(".tri").mouseout(function(){
+      $(".trl").removeClass("btnactive");
+    });
+
+    $(".fiveb").mouseover(function(){
+      $(".fiverl").addClass("btnactive");
+      $(".obvodka5").addClass("obact");
+    });
+
+    $(".fiveb").mouseout(function(){
+      $(".fiverl").removeClass("btnactive");
+      $(".obvodka5").removeClass("obact");
+    });
+
+    $(".fiverl").mouseover(function(){
+      $(".fiveb").addClass("btnactive");
+      $(".obvodka5").addClass("obact");
+    });
+
+    $(".fiverl").mouseout(function(){
+      $(".fiveb").removeClass("btnactive");
+      $(".obvodka5").removeClass("obact");
+    });
+
+    $(".obvodka5").mouseover(function(){
+      $(".fiveb").addClass("btnactive");
+      $(".fiverl").addClass("obact");
+    });
+
+    $(".obvodka5").mouseout(function(){
+      $(".fiveb").removeClass("btnactive");
+      $(".fiverl").removeClass("obact");
+    });
+
+
+
+
+
+  //   if (condition1) {
+  // // блок кода, который выполняется, если условие condition1 истинно
+  // } else if (condition2) {
+  // // блок кода, который выполняется, если условие condition2 истинно
+  // } else if (condition3) {
+  // // блок кода, который выполняется, если условие condition3 истинно
+  // } else {
+  // // блок кода, который выполняется, если предыдущие условия ложны
+  // }
+
+    $( "input" )
+    .keyup(function() {
+      var value = $( this ).val();
+      $( "p" ).text( value );
+    })
+    .keyup();
+
+/* _________________ 4 секция, где выбор вкусов ___________________ */
+
+    $(".vkus1").click(function(){
+        $(".vkus2").removeClass("vka");
+        $(".vkus3").removeClass("vka");
+        $(".vkus4").removeClass("vka");
+        $(".vkus5").removeClass("vka");
+        $(".vkus6").removeClass("vka");
+        $(".hhh1").removeClass("vkp");
+        $(".hhh2").removeClass("vkp");
+        $(".hhh3").removeClass("vkp");
+        $(".hhh4").removeClass("vkp");
+        $(".hhh5").removeClass("vkp");
+        $(".hhh").addClass("vkp");
+        $(".vkus1").addClass("vka");
+        $(".forb1").remove();
+        $(".frl1").remove();
+        $(".rr2").removeClass("rr2a");
+        $('.ppp').html('вкус состоит из любви, нежности и поддержки');
+        $('.text2').html('вкус объятий');
+      });
+
+    $(".vkus2").click(function(){
+      $(".vkus1").removeClass("vka");
+      $(".vkus3").removeClass("vka");
+      $(".vkus4").removeClass("vka");
+      $(".vkus5").removeClass("vka");
+      $(".vkus6").removeClass("vka");
+      $(".hhh").removeClass("vkp");
+      $(".hhh2").removeClass("vkp");
+      $(".hhh3").removeClass("vkp");
+      $(".hhh4").removeClass("vkp");
+      $(".hhh5").removeClass("vkp");
+      $(".hhh1").addClass("vkp");
+      $(".vkus2").addClass("vka");
+      $(".forb1").remove();
+      $(".frl1").remove();
+      $(".rr2").removeClass("rr2a");
+      $('.ppp').html('вкус состоит из ожидания, волнения и счастья');
+      $('.text2').html('вкус 1 свидания');
+    });
+
+
+    $(".vkus3").click(function(){
+      $(".vkus1").removeClass("vka");
+      $(".vkus2").removeClass("vka");
+      $(".vkus4").removeClass("vka");
+      $(".vkus5").removeClass("vka");
+      $(".vkus6").removeClass("vka");
+      $(".hhh").removeClass("vkp");
+      $(".hhh1").removeClass("vkp");
+      $(".hhh3").removeClass("vkp");
+      $(".hhh4").removeClass("vkp");
+      $(".hhh5").removeClass("vkp");
+      $(".hhh2").addClass("vkp");
+      $(".vkus3").addClass("vka");
+      $(".forb1").remove();
+      $(".frl1").remove();
+      $('.ppp').html('вкус состоит из любви, грусти и ностальгии');
+      $(".rr2").addClass("rr2a");
+      $('.text2').html('вкус родного дома');
+    });
+
+
+    $(".vkus4").click(function(){
+      $(".vkus1").removeClass("vka");
+      $(".vkus2").removeClass("vka");
+      $(".vkus3").removeClass("vka");
+      $(".vkus5").removeClass("vka");
+      $(".vkus6").removeClass("vka");
+      $(".hhh").removeClass("vkp");
+      $(".hhh1").removeClass("vkp");
+      $(".hhh2").removeClass("vkp");
+      $(".hhh4").removeClass("vkp");
+      $(".hhh5").removeClass("vkp");
+      $(".hhh3").addClass("vkp");
+      $(".vkus4").addClass("vka");
+      $(".forb1").remove();
+      $(".frl1").remove();
+      $(".rr2").removeClass("rr2a");
+      $('.ppp').html('вкус состоит из злости и недовольства');
+      $('.text2').html('вкус опозданий');
+    });
+
+    $(".vkus5").click(function(){
+      $(".vkus1").removeClass("vka");
+      $(".vkus2").removeClass("vka");
+      $(".vkus3").removeClass("vka");
+      $(".vkus4").removeClass("vka");
+      $(".vkus6").removeClass("vka");
+      $(".hhh").removeClass("vkp");
+      $(".hhh1").removeClass("vkp");
+      $(".hhh2").removeClass("vkp");
+      $(".hhh3").removeClass("vkp");
+      $(".hhh5").removeClass("vkp");
+      $(".hhh4").addClass("vkp");
+      $(".vkus5").addClass("vka");
+      $(".rr2").addClass("rr2a");
+      $(".forb1").remove();
+      $(".frl1").remove();
+      $('.ppp').html('вкус состоит из печали и злости');
+      $('.text2').html('послевкусие отношений');
+    });
+
+    $(".vkus6").click(function(){
+      $(".vkus1").removeClass("vka");
+      $(".vkus2").removeClass("vka");
+      $(".vkus3").removeClass("vka");
+      $(".vkus4").removeClass("vka");
+      $(".vkus5").removeClass("vka");
+      $(".hhh").removeClass("vkp");
+      $(".hhh1").removeClass("vkp");
+      $(".hhh2").removeClass("vkp");
+      $(".hhh3").removeClass("vkp");
+      $(".hhh4").removeClass("vkp");
+      $(".hhh5").addClass("vkp");
+      $(".vkus6").addClass("vka");
+      $(".forb1").remove();
+      $(".frl1").remove();
+      $(".rr2").addClass("rr2a");
+      $('.ppp').html('вкус состоит из ожидания и радости');
+      $('.text2').html('вкус весеннего ветра');
+    });
+
+/* _________________ 3 секция, где выбор ___________________ */
+
+    $(".kry").click(function(){
+        $(".krr").addClass("notwork");
+        $(".krf").addClass("notwork");
+        $(".kry").removeClass("notwork");
+        $(".krr").removeClass("krra");
+        $(".krf").removeClass("krfa");
+        $(".kry").addClass("krya");
+    });
+
+    $(".krr").click(function(){
+        $(".kry").addClass("notwork");
+        $(".krf").addClass("notwork");
+        $(".krr").removeClass("notwork");
+        $(".kry").removeClass("krya");
+        $(".krf").removeClass("krfa");
+        $(".krr").addClass("krra");
+    });
+
+    $(".krf").click(function(){
+        $(".kry").addClass("notwork");
+        $(".krr").addClass("notwork");
+        $(".krf").removeClass("notwork");
+        $(".kry").removeClass("krya");
+        $(".krr").removeClass("krra");
+        $(".krf").addClass("krfa");
+    });
+
+    $(".i1").click(function(){
+        $(".i2").addClass("notwork");
+        $(".i3").addClass("notwork");
+        $(".i1").removeClass("notwork");
+        $(".i2").removeClass("ia1");
+        $(".i3").removeClass("ia1");
+        $(".i1").addClass("ia1");
+    });
+
+    $(".i2").click(function(){
+        $(".i1").addClass("notwork");
+        $(".i3").addClass("notwork");
+        $(".i2").removeClass("notwork");
+        $(".i1").removeClass("ia1");
+        $(".i3").removeClass("ia1");
+        $(".i2").addClass("ia1");
+    });
+
+    $(".i3").click(function(){
+        $(".i1").addClass("notwork");
+        $(".i2").addClass("notwork");
+        $(".i3").removeClass("notwork");
+        $(".i1").removeClass("ia1");
+        $(".i2").removeClass("ia1");
+        $(".i3").addClass("ia1");
+    });
+
+
+    $(".kry").click(function(){
+      if($(".kry").hasClass("krya") && $(".i1").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/11.png");
+      }
+      if($(".kry").hasClass("krya") && $(".i2").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/21.png");
+      }
+      if($(".kry").hasClass("krya") && $(".i3").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/31.png");
+      }
+    });
+
+    $(".krr").click(function(){
+      if($(".krr").hasClass("krra") && $(".i1").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/12.png");
+
+      }
+      if($(".krr").hasClass("krra") && $(".i2").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/22.png");
+      }
+
+      if($(".krr").hasClass("krra") && $(".i3").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/32.png");
+      }
+
+    });
+
+    $(".krf").click(function(){
+      if($(".krf").hasClass("krfa") && $(".i1").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/13.png");
+      }
+      if($(".krf").hasClass("krfa") && $(".i2").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/23.png");
+      }
+      if($(".krf").hasClass("krfa") && $(".i3").hasClass("ia1")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/33.png");
+      }
+    });
+
+    $(".i1").click(function(){
+      if($(".i1").hasClass("ia1") && $(".kry").hasClass("krya")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/11.png");
+      }
+
+      if($(".i1").hasClass("ia1") && $(".krr").hasClass("krra")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/12.png");
+
+      }
+      if($(".i1").hasClass("ia1") && $(".krf").hasClass("krfa")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/13.png");
+      }
+    });
+
+    $(".i2").click(function(){
+      if($(".i2").hasClass("ia1") && $(".kry").hasClass("krya")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/21.png");
+      }
+      if($(".i2").hasClass("ia1") && $(".krr").hasClass("krra")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/22.png");
+      }
+      if($(".i2").hasClass("ia1") && $(".krf").hasClass("krfa")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/23.png");
+      }
+
+    });
+
+    $(".i3").click(function(){
+      if($(".i3").hasClass("ia1") && $(".kry").hasClass("krya")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/31.png");
+      }
+      if($(".i3").hasClass("ia1") && $(".krr").hasClass("krra")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/32.png");
+      }
+      if($(".i3").hasClass("ia1") && $(".krf").hasClass("krfa")){
+        $( ".trl1" ).remove();
+        $( ".tri1" ).remove();
+        $(".im11").attr("src","img/33.png");
+      }
+    });
 
 
     /* _________________ цветные квадраты ___________________ */
@@ -263,6 +707,34 @@ $(document).ready(function(){
       });
     });
 
+    $(".move-area").mousemove(function(event) {
+      let eye17 = $(".eye17");
+      let x = (eye17.offset().left) + (eye17.width() / 2);
+      let y = (eye17.offset().top) + (eye17.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye17.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
+    $(".move-area").mousemove(function(event) {
+      let eye18 = $(".eye18");
+      let x = (eye18.offset().left) + (eye18.width() / 2);
+      let y = (eye18.offset().top) + (eye18.height() / 2);
+      let rad = Math.atan2(event.pageX - x, event.pageY - y);
+      let rot = (rad * (180 / Math.PI) * -1) + 180;
+      eye18.css({
+        '-webkit-transform': 'rotate(' + rot + 'deg)',
+        '-moz-transform': 'rotate(' + rot + 'deg)',
+        '-ms-transform': 'rotate(' + rot + 'deg)',
+        'transform': 'rotate(' + rot + 'deg)'
+      });
+    });
+
     /* _________________ квадраты с обводкой ___________________ */
 
     $(".move-area").mousemove(function(event) {
@@ -362,6 +834,20 @@ $(document).ready(function(){
             'transform': 'rotate(' + rot + 'deg)'
           });
         });
+
+    $(".move-area").mousemove(function(event) {
+        let box7 = $(".box7");
+        let x = (box7.offset().left) + (box7.width() / 2);
+        let y = (box7.offset().top) + (box7.height() / 2);
+        let rad = Math.atan2(event.pageX - x, event.pageY - y);
+        let rot = (rad * (180 / Math.PI) * -1) + 180;
+          box7.css({
+            '-webkit-transform': 'rotate(' + rot + 'deg)',
+            '-moz-transform': 'rotate(' + rot + 'deg)',
+            '-ms-transform': 'rotate(' + rot + 'deg)',
+            'transform': 'rotate(' + rot + 'deg)'
+          });
+    });
 
 
     /* _________________ линии ___________________ */
@@ -469,6 +955,9 @@ $(document).ready(function(){
      $( "#draggable26" ).draggable();
      $( "#draggable27" ).draggable();
      $( "#draggable28" ).draggable();
+     $( "#draggable29" ).draggable();
+     $( "#draggable30" ).draggable();
+     $( "#draggable31" ).draggable();
    });
 
 
